@@ -2,6 +2,7 @@ from csv import DictWriter, DictReader
 caminho_lista_produtos: str = 'projetos/mercado/lista_produtos.csv'
 caminho_carrinho: str = 'projetos/mercado/carrinho.csv'
 
+# Classe produto
 class Produto:
     __quantidade: int = 1
 
